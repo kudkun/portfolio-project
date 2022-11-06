@@ -127,7 +127,7 @@ const Portfolio = ({path}: any) => {
           </p>
         </div>
         <h3>GitHub</h3>
-        <AiFillGithub href='https://github.com/kudkun/portfolio-project' size={50} color={'gray'} />
+        <a href='https://github.com/kudkun/portfolio-project'><AiFillGithub size={50} color={'gray'} /></a>
       </div>
   );
 }

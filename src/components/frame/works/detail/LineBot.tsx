@@ -12,7 +12,7 @@ const LineBot = ({path}: any) => {
         </div>
         <h3>制作期間</h3>
         <div className={classes.text}>
-          <p>2017年5月〜7月の2ヶ月</p>
+          <p>2017年5月〜6月の1ヶ月ほど</p>
         </div>
         <h3>利用想定人数</h3>
         <div className={classes.text}>
@@ -69,7 +69,8 @@ const LineBot = ({path}: any) => {
           alt=""
         />
         <h3>GitHub</h3>
-        <AiFillGithub href='https://github.com/kudkun/bot-project' size={50} color={'gray'} />
+        <a href='https://github.com/kudkun/bot-project'><AiFillGithub size={50} color={'gray'} /></a>
+        
       </div>
   );
 }

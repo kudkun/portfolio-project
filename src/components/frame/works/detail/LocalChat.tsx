@@ -11,7 +11,7 @@ const LocalChat = ({path}: any) => {
         </div>
         <h3>制作期間</h3>
         <div className={classes.text}>
-          <p>2018年7月〜2018年8月の1ヶ月</p>
+          <p>2018年7月〜2018年8月の2週間ほど</p>
         </div>
         <h3>利用想定人数</h3>
         <div className={classes.text}>
@@ -68,10 +68,13 @@ const LocalChat = ({path}: any) => {
             一切なかった。そのことについて著者に聞いてみたところ、「必要なんだけど、
             その前に知っておくべきことがたくさんあって、シングルスレッドでの
             処理がちゃんと書けることを優先しました。(原文ママ)」と返答をいただきました。
+            ローカルでのチャットを実現できたことは成果ではあるが、
             基礎的なところを疎かにして、作りたいものを優先していることに気がついた。
-            本書籍をしっかり読み込み、コーディングおよび開発技法やバージョン管理など
-            Web開発の基礎を身に付けることにする。
+            Threadの知識はトラブルシュートに役立つが、実務でのWeb開発には直接的には
+            役に立たないというご指摘も頂いた。
           </p>
+          <p>　直近のJavaに関する課題は、本書籍を読み込んで開発技法やバージョン管理、
+            SpringBootなどWeb開発の基礎を身に付けることとする。</p>
         </div>
         <div ></div>
         <h3>全体図</h3>
@@ -80,7 +83,7 @@ const LocalChat = ({path}: any) => {
           alt=""
         />
         <h3>GitHub</h3>
-        <AiFillGithub href='https://github.com/kudkun/chat-project' size={50} color={'gray'} />
+        <a href='https://github.com/kudkun/chat-project'><AiFillGithub size={50} color={'gray'} /></a>
       </div>
   );
 }

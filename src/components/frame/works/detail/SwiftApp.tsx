@@ -12,7 +12,7 @@ const SwiftApp = ({path}: any) => {
         </div>
         <h3>制作期間</h3>
         <div className={classes.text}>
-          <p>2018年12月〜2019年2月の3ヶ月</p>
+          <p>2018年12月〜2019年2月の2ヶ月ほど</p>
         </div>
         <h3>利用想定人数</h3>
         <div className={classes.text}>
@@ -78,7 +78,7 @@ const SwiftApp = ({path}: any) => {
           alt=""
         />
         <h3>GitHub</h3>
-        <AiFillGithub href='https://github.com/kudkun/notifi-project' size={50} color={'gray'} />
+        <a href='https://github.com/kudkun/notifi-project'><AiFillGithub size={50} color={'gray'} /></a>
       </div>
   );
 }
