@@ -1,0 +1,46 @@
+.image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.info {
+    position: absolute;
+    left: 5%;
+    text-align: left;
+    margin-bottom: 100px;
+    max-width: 50rem;
+    word-break: break-word;
+}
+
+.info h3 {
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    border-bottom: solid 3px #87CEFA;
+    width: 40%;
+}
+
+.text {
+    /* 単語の区切りで改行するが、場合によっては単語の途中でも改行する */
+    word-break: break-word;
+    /* スマホ用に左右を空ける */
+    padding: 0 20px 0 0;
+    font-size: 13px;
+}
+
+.image {
+    width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    .info h3 {
+        font-size: 10px;
+        margin-top: 30px;
+        letter-spacing: 3px;
+    }
+    
+    .text {
+        /* スマホ用に左右を空ける */
+        font-size: 0.1rem;
+    }    
+}

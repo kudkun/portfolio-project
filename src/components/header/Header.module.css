@@ -1,0 +1,66 @@
+.menu {
+    /* 上部に固定したまにする */
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    /* 子要素に透明度を継承させないためにrgbaを使用 */
+    background: linear-gradient(90deg, rgba(230,226,226,0.4) 25%
+    , rgba(227,220,220,0.4) 51%, rgba(228,224,224,0.4) 76%);
+}
+
+nav {
+    /* ナビゲーション内要素を横並びにする */
+    display: flex;
+    max-height: 40px;
+    color: gray;
+}
+
+nav div {
+    width: 100%;
+}
+
+/* ナビゲーション内のロゴ */
+.logo {
+    font-family: monospace;
+    letter-spacing: .3rem;
+    font-size: 30px;
+}
+.logo a {
+    text-decoration: none;
+    color: #838383;
+}
+
+.links {
+        /* リンクを縦に並べる */
+        position: absolute;
+        display: block;
+        right: 0;
+        width: 170px;
+        top: 3vh;
+
+        background-color: rgba(203, 202, 202, 0.3);
+        /* 表示速度 */
+        transition: all 0.2s;
+        /* 無駄な余白を消す */
+        padding: 0;
+        /* 最初はナビゲーションを隠しておく */
+        transform: translateX(100%);
+        z-index: 1;
+}
+.links li {
+    border-bottom: 1px solid gray;
+    margin: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+.links li span:hover {
+    color: black;
+}
+
+.burger {
+    /* 右側寄せのハンバーガーメニュー*/
+    margin: 0 0 0 auto;
+    margin-right: 5%;
+    cursor: pointer;
+}
